@@ -1,19 +1,20 @@
 This is a GitHub copy of the RcVCite WordPress [plugin](https://wordpress.org/plugins/rcvcite/).
 
-=== RcVCite ===
-Contributors: RcVCite
-Homepage URL: http://rcvcite.net/
-Tags: Bible verse, verse lookup, verse reference
-Requires at least: 3.0
-Tested up to: 4.8
-Stable tag: trunk
-License: MIT
+# RcVCite
+
+Contributors: RcVCite  
+Homepage URL: http://rcvcite.net/  
+Tags: Bible verse, verse lookup, verse reference  
+Requires at least: 3.0  
+Tested up to: 4.8  
+Stable tag: trunk  
+License: MIT  
 License URI: http://opensource.org/licenses/MIT
 
 RcVCite displays the content of a verse when you click on a reference or your
 mouse moves over the reference.
 
-== Description ==
+## Description
 
 [RcVCite Homepage.](http://rcvcite.net)
 
@@ -29,46 +30,46 @@ CA;
 RcVCite is in public beta which means it still may have problems to be worked
 out, but it is available for anyone to use.
 
-== Installation ==
+## Installation
 
 To install this plugin:
 
 1. Copy the rcvcite folder to the `/wp-content/plugins/` directory.
-1. Activate RcVCite through the 'Plugins' menu in WordPress.
-1. Configure the RcVCite settings through the Wordpress administrative interface.
+2. Activate RcVCite through the 'Plugins' menu in WordPress.
+3. Configure the RcVCite settings through the Wordpress administrative interface.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= Where can I find more information about RcVCite? =
+### Where can I find more information about RcVCite?
 
 RcVCite's homepage is [http://rcvcite.net](http://rcvcite.net).
 You can find more information about this plugin and the RcVCite browser
 extensions there.
 
-== Screenshots ==
+## Screenshots
 
 1. An example of RcVCite.
 1. The RcVCite Settings page.
 
-== Changelog ==
+## Changelog
 
-= 0.4.17.720.11 =
+### 0.4.17.720.11
 Fixed a bug related to the ignoreFilter jQuery selector feature.
 
-= 0.4.17.719.18 =
+### 0.4.17.719.18
 Fixed a bug related to properly encoding settings.
 
-= 0.4.17.716.18 =
+### 0.4.17.716.18 
 * Verse references which use Roman numerals for the book now work (e.g. II Cor. 3:18).
 * Support was added for ranges of the format verses 17 to 18.
 * An additional filter was added to prevent pp. 17-18 from being recognized as a verse range or p. 1 as a verse.
 * The undocumented feature "ignoreFilter" has been inverted to be more intuitive and documentation has been added to rcvcite.net. Also, options dialog entries were added for "ignoreFilter" to the extensions and Wordpress plugin.
 * Tests were written for the book detection and parsing resulting in a bug fix for cases where Philm. 1 was being improperly recognized as being Philippians 1.
 
-= 0.3.15.731.17 =
+### 0.3.15.731.17 
 * Added support for HTTPS.
 
-= 0.3.14.501.22 =
+### 0.3.14.501.22 
 * There were several under-the-hood changes to make the Mozilla reviewers happy.
   Also, the book name matching was changed back to case sensitive and new
   matching rules were added for all caps.
@@ -77,14 +78,14 @@ Fixed a bug related to properly encoding settings.
 * An error message was added for the case when the text-only Online Recovery
   Version API is unreachable.
 
-= 0.3.14.421.16 =
+### 0.3.14.421.16 
 * First published release
 
-== Upgrade Notice ==
+## Upgrade Notice 
 
-= 0.3.14.501.22 =
+### 0.3.14.501.22 
 This update fixes several bugs, updating is recommended. See the changelog for
 details.
 
-= 0.3.14.412.16 =
+### 0.3.14.412.16 
 This is the first version of RcVCite for Wordpress.
